@@ -31,6 +31,5 @@ export default [
         ratingAverage: "88",
         reviewCount: "5",
         ownerAvatarUrl: "https://moon-ideas-prueba.vercel.app"
-    },
-
+    }
 ]

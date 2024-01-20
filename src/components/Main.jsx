@@ -1,14 +1,15 @@
 import React from "react";
-import Constants from 'expo-constants';
 import {Text, View } from 'react-native';
-import RepositoryList from "./repositoryList";
+import Constants from "expo-constants";
+import RepositoryList from "./repositoryList.jsx";
 
 const Main = () => {
-    <View style={{marginTop: Constants.statusBarHeight, flexGrow:1}}>
-        <Text>Prueba React</Text>
-        <RepositoryList />
-    </View>
-
+    return (
+        <View style={{ marginTop: Constants.statusBarHeight, flexGrow: 1 }}>
+            <Text>Lista de Repositorios</Text>
+            <RepositoryList />
+        </View>
+    );
 }
 
 export default Main;
