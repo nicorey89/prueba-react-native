@@ -2,14 +2,14 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import StyledText from "./StyledText.jsx";
 
-const RepositoryItem = (props) => {
+const RepositoryItem = ({ id, fullName, description, ownerAvatarUrl, languaje }) => {
     return (
-    <View key={props.id} style={styles.container}>
-        <StyledText big bold>id: {props.id}</StyledText>
-        <StyledText>name: {props.fullName}</StyledText>
-        <StyledText>description: {props.description}</StyledText>
-        <StyledText blue>avatar url: {props.ownerAvatarUrl}</StyledText>
-        <StyledText >languaje: {props.languaje}</StyledText>
+    <View key={id} style={styles.container}>
+        <StyledText big bold>id: {id}</StyledText>
+        <StyledText>name: {fullName}</StyledText>
+        <StyledText>description: {description}</StyledText>
+        <StyledText blue>avatar url: {ownerAvatarUrl}</StyledText>
+        <StyledText >languaje: {languaje}</StyledText>
     </View>
 
     );

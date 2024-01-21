@@ -33,6 +33,6 @@ export default function StyledText ({blue, bold, children, small, big}) {
         <Text style={textStyles}>
             {children}
         </Text>
-    )
+    );
 
 }

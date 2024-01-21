@@ -13,7 +13,7 @@ const RepositoryList = () => {
             )}
         >
         </FlatList>
-    )
+    );
 }
 
 export default RepositoryList;
