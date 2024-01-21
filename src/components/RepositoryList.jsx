@@ -1,6 +1,7 @@
 import React from "react";
-import {Text, View, FlatList } from 'react-native';
+import { Text, FlatList } from 'react-native';
 import repositories from '../data/repositories.js';
+import RepositoryItem from "./RepositoryItem.jsx";
 
 const RepositoryList = () => {
     return (
@@ -8,14 +9,7 @@ const RepositoryList = () => {
             data={repositories}
             ItemSeparatorComponent={() => <Text> </Text>}
             renderItem={({ item: repo }) => (
-            <View key={repo.id}>
-                <Text>id: {repo.id}</Text>
-                <Text>name: {repo.fullName}</Text>
-                <Text>description: {repo.description}</Text>
-                <Text>avatar url: {repo.ownerAvatarUrl}</Text>
-                <Text>languaje: {repo.languaje}</Text>
-            </View>
-
+                <RepositoryItem {...repo}/>
             )}
         >
         </FlatList>
