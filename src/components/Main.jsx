@@ -5,7 +5,7 @@ import RepositoryList from "./RepositoryList.jsx";
 
 const Main = () => {
     return (
-        <View style={{ marginTop: Constants.statusBarHeight, flexGrow: 1 }}>
+        <View style={{ marginTop: Constants.statusBarHeight, marginLeft: 20, flexGrow: 1 }}>
             <Text>Lista de Repositorios</Text>
             <RepositoryList />
         </View>
