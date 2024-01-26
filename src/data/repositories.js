@@ -8,7 +8,7 @@ export default [
         stargazersCount: "233223",
         ratingAverage: "0",
         reviewCount: "3",
-        ownerAvatarUrl: "https://nicolas-rey.vercel.app"
+        ownerAvatarUrl: "https://th.bing.com/th/id/OIP.N_anztpFCPTBVRUMWvuGBwHaHa?rs=1&pid=ImgDetMain"
     },
     {
         id: "thianrey.thian.dev",
@@ -19,7 +19,7 @@ export default [
         stargazersCount: "125463",
         ratingAverage: "4",
         reviewCount: "1",
-        ownerAvatarUrl: "https://argentinacocktails.vercel.app"
+        ownerAvatarUrl: "https://th.bing.com/th/id/OIP.DN7ToydkJZEdVaJVK_NhvwAAAA?rs=1&pid=ImgDetMain"
     },
     {
         id: "juliarey.julia.dev",
@@ -30,6 +30,6 @@ export default [
         stargazersCount: "113386",
         ratingAverage: "88",
         reviewCount: "5",
-        ownerAvatarUrl: "https://moon-ideas-prueba.vercel.app"
+        ownerAvatarUrl: "https://pngimg.com/uploads/mysql/mysql_PNG19.png"
     }
 ]
