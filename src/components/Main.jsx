@@ -1,12 +1,13 @@
 import React from "react";
-import {Text, View } from 'react-native';
-import Constants from "expo-constants";
+import { View, Text  } from 'react-native';
 import RepositoryList from "./RepositoryList.jsx";
+import AppBar from "./AppBar.jsx";
+import { Route } from "react-router-native";
 
 const Main = () => {
     return (
-        <View style={{ marginTop: Constants.statusBarHeight, marginLeft: 20, flexGrow: 1 }}>
-            <Text>Lista de Repositorios</Text>
+        <View style={{ flex: 1 }}>
+            <AppBar/>
             <RepositoryList />
         </View>
     );

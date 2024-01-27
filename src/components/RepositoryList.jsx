@@ -8,8 +8,8 @@ const RepositoryList = () => {
         <FlatList 
             data={repositories}
             ItemSeparatorComponent={() => <Text> </Text>}
-            renderItem={({ item: repo }) => (
-                <RepositoryItem {...repo}/>
+            renderItem={({ item }) => (
+                <RepositoryItem {...item}/>
             )}
         >
         </FlatList>
