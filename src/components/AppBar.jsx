@@ -1,6 +1,5 @@
 import React from "react";
-import { ScrollView, StyleSheet } from "react-native";
-import StyledText from "./StyledText.jsx";
+import { View, ScrollView, StyleSheet, Text, TouchableWithoutFeedback } from "react-native";
 import Constants from "expo-constants";
 import { Link, useLocation } from "react-router-native";
 
@@ -8,15 +7,17 @@ const styles = StyleSheet.create({
     appBar: {
         backgroundColor: "blue",
         flexDirection: "row",
-        justifyContent: "space-around",
-        paddingTop: Constants.statusBarHeight + 10
+        justifyContent: "space-",
+        paddingTop: Constants.statusBarHeight + 10,
+        paddingHorizontal: 10
     },
     scroll: {
         paddingBottom: 15
     },
-    text: {
-        color: "grey",
-        paddingHorizontal: 10
+    textBar: {
+        color: "#999",
+        paddingHorizontal: 15
+
     },
     active: {
         color: "white"
@@ -24,15 +25,15 @@ const styles = StyleSheet.create({
 })
 
 const AppBarTab = ({ children, to }) => {
-    const { pathname } = useLocation()
-    const active = pathname == to
-    const textActive = [
-        styles.text,
+    const { pathname } = useLocation();
+    const active = pathname == to;
+    const textStyles = [
+        styles.textBar,
         active && styles.active
     ]
     return(
-        <Link to={to}>
-            <StyledText bold styles={textActive}>{children}</StyledText>
+        <Link to={to} component={TouchableWithoutFeedback}>
+            <Text style={textStyles}>{children}</Text>
         </Link>
     )
 }

@@ -1,6 +1,6 @@
 export default [
     {
-        id: "nicorey.nico.dev",
+        id: "nicorey1",
         fullName: "nicorey/nico.dev",
         description: "el capo mas capo",
         languaje: "html",
@@ -11,7 +11,7 @@ export default [
         ownerAvatarUrl: "https://th.bing.com/th/id/OIP.N_anztpFCPTBVRUMWvuGBwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-        id: "thianrey.thian.dev",
+        id: "thianrey1",
         fullName: "thianrey/thian.dev",
         description: "no hay dos sin tres",
         languaje: "javascript",
@@ -22,7 +22,7 @@ export default [
         ownerAvatarUrl: "https://th.bing.com/th/id/OIP.DN7ToydkJZEdVaJVK_NhvwAAAA?rs=1&pid=ImgDetMain"
     },
     {
-        id: "juliarey.julia.dev",
+        id: "juliarey1",
         fullName: "juliarey/julia.dev",
         description: "la princesa de papa",
         languaje: "mysql",
@@ -33,7 +33,7 @@ export default [
         ownerAvatarUrl: "https://pngimg.com/uploads/mysql/mysql_PNG19.png"
     },
     {
-        id: "nicorey.nico.dev",
+        id: "nicorey2",
         fullName: "nicorey/nico.dev",
         description: "el capo mas capo",
         languaje: "html",
@@ -44,7 +44,7 @@ export default [
         ownerAvatarUrl: "https://th.bing.com/th/id/OIP.N_anztpFCPTBVRUMWvuGBwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-        id: "thianrey.thian.dev",
+        id: "thianrey2",
         fullName: "thianrey/thian.dev",
         description: "no hay dos sin tres",
         languaje: "javascript",
@@ -55,7 +55,7 @@ export default [
         ownerAvatarUrl: "https://th.bing.com/th/id/OIP.DN7ToydkJZEdVaJVK_NhvwAAAA?rs=1&pid=ImgDetMain"
     },
     {
-        id: "juliarey.julia.dev",
+        id: "juliarey2",
         fullName: "juliarey/julia.dev",
         description: "la princesa de papa",
         languaje: "mysql",
@@ -66,7 +66,7 @@ export default [
         ownerAvatarUrl: "https://pngimg.com/uploads/mysql/mysql_PNG19.png"
     },
     {
-        id: "nicorey.nico.dev",
+        id: "nicorey",
         fullName: "nicorey/nico.dev",
         description: "el capo mas capo",
         languaje: "html",
@@ -77,7 +77,7 @@ export default [
         ownerAvatarUrl: "https://th.bing.com/th/id/OIP.N_anztpFCPTBVRUMWvuGBwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-        id: "thianrey.thian.dev",
+        id: "thianrey",
         fullName: "thianrey/thian.dev",
         description: "no hay dos sin tres",
         languaje: "javascript",
@@ -88,7 +88,7 @@ export default [
         ownerAvatarUrl: "https://th.bing.com/th/id/OIP.DN7ToydkJZEdVaJVK_NhvwAAAA?rs=1&pid=ImgDetMain"
     },
     {
-        id: "juliarey.julia.dev",
+        id: "juliarey",
         fullName: "juliarey/julia.dev",
         description: "la princesa de papa",
         languaje: "mysql",
